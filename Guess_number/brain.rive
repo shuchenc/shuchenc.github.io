@@ -1,0 +1,17 @@
+// Guess_number brain
+
+// could simply set a var num below, or get what was set in sketch.js
+//! var num = 37555
+
+/* tutorial at https://www.rivescript.com/docs/tutorial */
+
++ set #
+- <set num=<star1>>
+
++ #
+* <star1> > <get num> => Too high! Pick a lower number
+* <star1> < <get num> => Too low! Pick a higher number
+* <star1> == <get num> => Wow! You nailed it!
+
++ *
+- Guess a number between 0 and 99999
